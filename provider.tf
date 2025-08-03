@@ -12,7 +12,7 @@ backend "azurerm" {
     storage_account_name = "mynewstorgaesuman"         
     container_name       = "stgcontainer"
     key                  = "terraform.tfstate"
-
+}
 }
 
 provider "azurerm" {
